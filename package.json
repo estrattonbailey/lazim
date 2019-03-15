@@ -1,0 +1,33 @@
+{
+  "name": "lazim",
+  "version": "1.0.0",
+  "description": "Tiny tweeing library that sparkles.",
+  "source": "index.js",
+  "module": "dist/lazim.es.js",
+  "main": "dist/lazim.js",
+  "umd:main": "dist/lazim.umd.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "microbundle build",
+    "watch": "microbundle watch --compress false",
+    "publish": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/estrattonbailey/lazim.git"
+  },
+  "author": "estrattonbailey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/estrattonbailey/lazim/issues"
+  },
+  "homepage": "https://github.com/estrattonbailey/lazim#readme",
+  "devDependencies": {
+    "microbundle": "^0.11.0"
+  },
+  "dependencies": {
+    "vsbl": "^1.3.3"
+  }
+}
