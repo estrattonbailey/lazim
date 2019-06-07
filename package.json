@@ -1,7 +1,7 @@
 {
   "name": "lazim",
   "version": "1.0.0",
-  "description": "Tiny tweeing library that sparkles.",
+  "description": "Super tiny and simple image lazy load library.",
   "source": "index.js",
   "module": "dist/lazim.es.js",
   "main": "dist/lazim.js",
